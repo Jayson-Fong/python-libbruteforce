@@ -5,6 +5,13 @@ build-backend = "maturin"
 [project]
 name = "libbruteforce"
 requires-python = ">=3.8"
+authors = [
+    {name = "Jayson Fong", email = "jayson.fong@gatech.edu"}
+]
+description = "Rust bindings for the libbruteforce Rust crate"
+readme = "README.md"
+license = { text = "MIT" }
+license-files = ["LICENSE", "licenses/MIT-libbruteforce"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: MIT License",
@@ -22,5 +29,10 @@ classifiers = [
     "Topic :: Security :: Cryptography",
 ]
 dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/Jayson-Fong/python-libbruteforce"
+Issues = "https://github.com/Jayson-Fong/python-libbruteforce/issues"
+
 [tool.maturin]
 features = ["pyo3/extension-module"]

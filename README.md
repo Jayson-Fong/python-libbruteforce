@@ -104,6 +104,14 @@ params = libbruteforce.BasicCrackParameter(alphabet, libbruteforce.Algorithm.MD5
 print(libbruteforce.crack(params, "b2f3d1e0efcb5d60e259a34ecbbdbe00"))
 ```
 
+# Backlog
+
+For future implementation:
+
+- [ ] Command-line utility
+- [ ] Automatic hash type detection
+- [ ] Python type stubs
+
 # Notice
 
 While this software is provided under the MIT License, the author does **not** endorse or condone any unlawful,
