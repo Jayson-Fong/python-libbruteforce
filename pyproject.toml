@@ -11,7 +11,7 @@ authors = [
 description = "Rust bindings for the libbruteforce Rust crate"
 readme = "README.md"
 license = { text = "MIT" }
-license-files = ["LICENSE", "licenses/MIT-libbruteforce"]
+license-files = ["LICENSE", "LICENSE-MIT-libbruteforce"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: MIT License",
