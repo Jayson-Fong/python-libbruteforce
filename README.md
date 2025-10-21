@@ -64,7 +64,7 @@ For example, to create an alphabet consisting of lowercase letters and the chara
 from libbruteforce import AlphabetBuilder
 
 
-alphabet: AlphabetBuilder = AlphabetBuilder().with_lowercase().with_char("!")
+alphabet: AlphabetBuilder = AlphabetBuilder().with_lowercase().with_custom("!")
 ```
 
 You must then create a cracking parameters object, which consists of the alphabet, the algorithm to use, the minimum
@@ -76,7 +76,7 @@ to operate greedily on resources.
 from libbruteforce import AlphabetBuilder, BasicCrackParameter, Algorithm
 
 
-alphabet: AlphabetBuilder = AlphabetBuilder().with_lowercase().with_char("!")
+alphabet: AlphabetBuilder = AlphabetBuilder().with_lowercase().with_custom("!")
 params: BasicCrackParameter = BasicCrackParameter(alphabet, Algorithm.MD5, 0, 4, True)
 ```
 
