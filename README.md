@@ -25,9 +25,9 @@
 
 # Purpose
 
-python-libbruteforce provides Python bindings for the [libbruteforce](https://crates.io/crates/libbruteforce) Rust 
-crate. This package is meant to offer increased flexibility in scripting for red-teaming exercises and capture-the-flag 
-competitions where the goal is to identify potentially compromised credentials or weak credentials.
+This package provides Python bindings for the [libbruteforce](https://crates.io/crates/libbruteforce) Rust crate in
+an effort to offer increased flexibility in scripting for red-teaming exercises and capture-the-flag competitions, 
+particularly when the goal is to identify potentially compromised credentials or weak credentials.
 
 This package primarily leverages a defined alphabet alongside a minimum and maximum message length unlike traditional
 password cracking tools, which typically use wordlists. Due to the sheer number of possible combinations, brute-forcing
